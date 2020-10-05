@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-blog-js": hot(preferDefault(require("/Users/sohailhasware/GitHub/jpgPortfolio/student_frontend/src/pages/blog.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/sohailhasware/GitHub/jpgPortfolio/student_frontend/src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/sohailhasware/GitHub/jpgPortfolio/student_frontend/src/pages/index.js"))),
-  "component---src-pages-projects-js": hot(preferDefault(require("/Users/sohailhasware/GitHub/jpgPortfolio/student_frontend/src/pages/projects.js")))
+  "component---src-pages-projects-js": hot(preferDefault(require("/Users/sohailhasware/GitHub/jpgPortfolio/student_frontend/src/pages/projects.js"))),
+  "component---src-templates-blog-template-js": hot(preferDefault(require("/Users/sohailhasware/GitHub/jpgPortfolio/student_frontend/src/templates/blog-template.js")))
 }
 
