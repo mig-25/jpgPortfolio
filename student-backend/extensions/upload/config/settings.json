@@ -2,7 +2,7 @@
   "provider": "cloudinary",
   "providerOptions": {
     "cloud_name": "mig-25",
-    "api_key": "979111138869784",
-    "api_secret": "oqQa1nytFZqmQJK9XUA9IbGKvUE"
+    "api_key": "xxxx",
+    "api_secret": "xxx"
   }
 }
