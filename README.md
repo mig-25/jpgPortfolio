@@ -1,7 +1,15 @@
 ## Setup Notes
 
 1. `npm install` in both frontend and backend directories
-2. In the backend `npm run develop`
-3. In the frontend `gatsby develop`
-4. NOTE!!! In your backend, change settigns for student-portfolio/student-backend/extensions/upload/config/settings.json, the settigs for cloudinary in this file must be yours own
-5. NOTE!!! In your frontend, change settings for student-portfolio/student_frontend/src/pages/contact.js, the settings for form action must be specifically be yours that you recieved from fromspree
+2. NOTE!!! Beaware that after cloning this repo, you need to delete the upload folder and its contents in the strapi backend.
+3. In the backend run `npm run develop`
+4. In your backend recreate the folder upload under extensions, then in the upload folder create the config folder, in the config folder create settings.json file with the following structure.
+5. `{`
+   `"provider": "cloudinary",`
+   `"providerOptions": { "cloud_name": "xxxx",`
+   `"api_key": "xxxxxx",`
+   `"api_secret": "xxx" }`
+   `}`
+   Replace the content of cloud_name, api_key and api_secret with your own credentials from Cloudnairy
+6. NOTE!!! In your frontend, change settings for student-portfolio/student_frontend/src/pages/contact.js, the settings for form action must be specifically be yours that you recieved from fromspree
+7. In the frontend run `gatsby develop`
